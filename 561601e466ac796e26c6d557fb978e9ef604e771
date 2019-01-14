@@ -1,0 +1,7 @@
+Code-Review+2: Marius Cornea <mcornea@redhat.com>
+Verified+1: Marius Cornea <mcornea@redhat.com>
+Submitted-by: Marius Cornea <mcornea@redhat.com>
+Submitted-at: Mon, 14 Jan 2019 22:55:25 +0000
+Reviewed-on: https://review.gerrithub.io/c/rhos-infra/tripleo-post-tests/+/440424
+Project: rhos-infra/tripleo-post-tests
+Branch: refs/heads/master
