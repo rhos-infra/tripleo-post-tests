@@ -1,0 +1,9 @@
+- name: Validate time is in sync
+  hosts: all:!localhost:!hypervisor
+  gather_facts: false
+  tasks:
+    - name: Verify timedatectl output
+      shell: |
+          timedatectl --no-pager | awk '/NTP\ synchronized/ {print $3}'
+      register: timesync
+      failed_when: "timesync.stdout != 'yes'"

@@ -1,0 +1,4 @@
+---
+- name: Validate time is in sync
+  import_playbook: tasks/timesync.yml
+  when: test.timesync|default(False)
