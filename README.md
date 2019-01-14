@@ -41,7 +41,7 @@ For manual installation:
     infrared plugin add https://github.com/rhos-infra/tripleo-post-tests
 
     # Trigger timesync test
-    infrared tripleo-config-changes --timesync yes
+    infrared tripleo-post-tests --timesync yes
 
 License
 -------
